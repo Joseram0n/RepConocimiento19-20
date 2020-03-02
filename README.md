@@ -15,6 +15,6 @@ Esto es una movida sobre numeros naturales en prolog.
 
  1. git add <nombre_fichero>
  
- 2. git commit -a -m "<mensaje>"
+ 2. git commit -a -m <mensaje>
  
  3. git push
