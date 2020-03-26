@@ -1,0 +1,33 @@
+--- Respuesta semana 1 ---
+
+Pregunta 1.¿Seria posible utilizando el predicado concatenar obtener cualquier par de números consecutivos de una lista? 
+En caso afirmativo, ¿de qué forma tendría que utilizar el predicado concatenar para conseguirlo?.
+
+R1:  si, seria posible de esta forma, concatenar(_, [E1,E2|_],[Lista a introducir]).
+
+
+Pregunta 2.¿Es posible hacer un uso reversible del predicado invertir? Si no fuese posible, ¿podría justificar por qué?
+
+R2: Si, se puede comprobar en SWI-Prolog que gracias al algoritmo de resolución obtiene un input a partir del output.
+
+
+Pregunta 3.Sería capaz de indicar que característica hace que un predicado no sea reversible.
+
+R3:   No todos los predicados son reversibles. Por ejemplo, los de comparación aritmética. El predicado >/2 sirve para saber si un número es mayor que otro, 
+	    pero no sirve para saber todos los números mayores que uno dado (puesto que son infinitos).
+		Otros predicados pueden perder la reversibilidad por deseo expreso de su programador, o solamente ser reversibles para ciertos argumentos, pero no otros.
+		Así podemos hablar de las posibles formas de invocar un predicado. Esto es lo que se denomina modos de uso. 
+		(Fuente: http://platea.pntic.mec.es/jdelucas/prolog.htm).
+
+Pregunta 4.Como hemos visto en clase, el uso reversible de los predicados es una característica muy potente de Prolog. 
+Haga uso de una combinación de los predicados concatenar e invertir en el que se utilice esta técnica.
+
+R4:  Ejemplo: concatenar([1,2,3],L2,[1,2,3,4,5,6]),invertir(I2,L2).
+
+--- GitHub --- 
+
+Usuario: Joseram0n  (Tengo de imagen de perfil un triangulo rojo y azul).
+Correo: Esta vinculado con el de la universidad. ( joseramon.lopez690@alu.uhu.es).
+URL: https://github.com/Joseram0n
+
+
